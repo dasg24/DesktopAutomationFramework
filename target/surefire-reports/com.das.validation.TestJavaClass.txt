@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.das.validation.TestJavaClass
--------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.471 s - in com.das.validation.TestJavaClass
