@@ -45,7 +45,7 @@ public class StartDocker {
 		}
 
 		Assert.assertTrue(flag);
-		runtime.exec("cmd /c start ScaleUp.bat");
+		runtime.exec("cmd /c start docker-compose up --scale chrome=10");
 		Thread.sleep(15000);
 
 	}
