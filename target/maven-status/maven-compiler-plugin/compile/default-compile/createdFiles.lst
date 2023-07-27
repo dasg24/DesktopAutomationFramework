@@ -6,7 +6,6 @@ com\das\pom\AccountPage.class
 com\das\core\BaseTest.class
 com\das\pom\HomePage.class
 com\das\pojo\Configuration.class
-com\das\validation\LoginTest.class
 com\das\utils\TestUtils.class
 com\das\pom\CartPage.class
 com\das\core\DriverManagerAbstract.class

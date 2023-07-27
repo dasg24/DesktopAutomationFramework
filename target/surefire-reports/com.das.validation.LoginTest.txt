@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.das.validation.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 76.603 s - in com.das.validation.LoginTest

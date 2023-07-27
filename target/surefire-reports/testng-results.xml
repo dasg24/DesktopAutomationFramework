@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T00:09:15 EDT" name="Surefire suite" finished-at="2023-07-27T00:09:25 EDT" duration-ms="9765">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T00:09:15 EDT" name="Surefire test" finished-at="2023-07-27T00:09:25 EDT" duration-ms="9765">
+      <class name="com.das.validation.LoginTest">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:08:54 EDT" name="startDockerGrid" finished-at="2023-07-27T00:09:15 EDT" duration-ms="21107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:16 EDT" name="startDriver" finished-at="2023-07-27T00:09:18 EDT" duration-ms="2739" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a0a9fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:16 EDT" name="startDriver" finished-at="2023-07-27T00:09:18 EDT" duration-ms="2747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a0a9fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:16 EDT" name="startDriver" finished-at="2023-07-27T00:09:18 EDT" duration-ms="2744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a0a9fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:16 EDT" name="startDriver" finished-at="2023-07-27T00:09:18 EDT" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a0a9fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:16 EDT" name="startDriver" finished-at="2023-07-27T00:09:18 EDT" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@a0a9fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo,com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:18 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-27T00:09:24 EDT" duration-ms="6060" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@1ea4a31f]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@13398bf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartpage -->
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo,com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:18 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-27T00:09:24 EDT" duration-ms="5277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@511837b6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@3e10b80a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartpage -->
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo,com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:18 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-27T00:09:25 EDT" duration-ms="6263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@1ad9f60e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@2af0b98f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartpage -->
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo,com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:18 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-27T00:09:25 EDT" duration-ms="6147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@6a28fcf2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@3d9230aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartpage -->
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo,com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:18 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-27T00:09:24 EDT" duration-ms="5688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@4649f343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.das.pojo.CustomerInfo@79a20643]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartpage -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:24 EDT" name="tearDownDriver" finished-at="2023-07-27T00:09:24 EDT" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:24 EDT" name="tearDownDriver" finished-at="2023-07-27T00:09:24 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:24 EDT" name="tearDownDriver" finished-at="2023-07-27T00:09:25 EDT" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:25 EDT" name="tearDownDriver" finished-at="2023-07-27T00:09:25 EDT" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:25 EDT" name="tearDownDriver" finished-at="2023-07-27T00:09:25 EDT" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownDriver -->
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:com.das.validation.LoginTest@1677d1]" started-at="2023-07-27T00:09:25 EDT" name="removeDriver" finished-at="2023-07-27T00:10:10 EDT" duration-ms="45021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+      </class> <!-- com.das.validation.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
