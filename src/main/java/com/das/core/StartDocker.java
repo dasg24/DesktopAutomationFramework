@@ -10,15 +10,9 @@ import org.testng.Assert;
 public class StartDocker {
 	public void startDockerGrid() throws IOException, InterruptedException {
 
-//		ProcessBuilder processBuilder = new ProcessBuilder();
-//		// processBuilder.command("cmd", "/c", "start DockerUp.bat");
-//		processBuilder.command("cmd", "/c", "start docker-compose up -d --scale chrome=10");
-//		String process = processBuilder.start().toString();
-
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("cmd /c start docker-compose up -d --scale chrome=10>>OutputLog.txt");
-
+		runtime.exec("cmd /c start cmd.exe /K \"DockerUp.bat && docker-compose up --scale chrome=10 -d && echo end\"");
 		String f = "OutputLog.txt";
 
 		Calendar cal = Calendar.getInstance();// 2:44 15th second
