@@ -10,9 +10,14 @@ import org.testng.Assert;
 public class StartDocker {
 	public void startDockerGrid() throws IOException, InterruptedException {
 
+//		ProcessBuilder processBuilder = new ProcessBuilder();
+//		// processBuilder.command("cmd", "/c", "start DockerUp.bat");
+//		processBuilder.command("cmd", "/c", "start docker-compose up -d --scale chrome=10");
+//		String process = processBuilder.start().toString();
+
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("cmd /c start DockerUp.bat");
+		runtime.exec("cmd /c start docker-compose up -d --scale chrome=10>>OutputLog.txt");
 
 		String f = "OutputLog.txt";
 
@@ -45,7 +50,7 @@ public class StartDocker {
 		}
 
 		Assert.assertTrue(flag);
-		runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
+		// runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
 		Thread.sleep(15000);
 
 	}
