@@ -14,7 +14,7 @@ public class StopDocker {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("cmd /c start /b DockerDown.bat");
+		runtime.exec("cmd /c start docker-compose down>>ShutDownLog.txt");
 
 		String f = "ShutDownLog.txt";
 
@@ -34,8 +34,8 @@ public class StopDocker {
 
 			{
 
-				if (currentLine.contains("selenium-hub                Removed")) {
-					System.out.println("found my text");
+				if (currentLine.contains("selenium-hub                          [32mRemoved")) {
+					System.out.println("found my text " + currentLine);
 					flag = true;// 14th seconds
 					break;
 				}
@@ -55,7 +55,6 @@ public class StopDocker {
 		File file2 = new File("ShutDownLog.txt");
 		file2.delete();
 		runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
-
 	}
 
 }
