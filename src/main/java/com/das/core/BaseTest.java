@@ -1,8 +1,13 @@
 package com.das.core;
 
+import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.List;
 import java.util.concurrent.Semaphore;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -16,6 +21,8 @@ import com.das.functions.Common_Functions;
 import com.das.pojo.Configuration;
 import com.das.pojo.CustomerInfo;
 import com.das.utils.JacksonUtils;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 @Listeners(com.das.utils.TestListener.class)
 public abstract class BaseTest {
@@ -104,6 +111,17 @@ public abstract class BaseTest {
 
 	public void loadNonLoginPage() throws IOException {
 		getDriver().get(loadConfig().getBaseURL());
+	}
+
+	public static List<HashMap<String, String>> getJsonData(String jsonFilePath) throws IOException {
+		// convert json file content to json string
+		String jsonContent = FileUtils.readFileToString(new File(jsonFilePath), StandardCharsets.UTF_8);
+
+		ObjectMapper mapper = new ObjectMapper();
+		List<HashMap<String, String>> data = mapper.readValue(jsonContent,
+				new TypeReference<List<HashMap<String, String>>>() {
+				});
+		return data;
 	}
 
 }

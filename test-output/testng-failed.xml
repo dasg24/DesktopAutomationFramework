@@ -8,7 +8,7 @@
           <include name="startDriver"/>
           <include name="removeDriver"/>
           <include name="startDockerGrid"/>
-          <include name="validateCartpage" invocation-numbers="7 8 5 6 9"/>
+          <include name="validateCartpage"/>
           <include name="tearDownDriver"/>
         </methods>
       </class> <!-- com.das.validation.LoginTest -->

@@ -17,16 +17,6 @@ public class CustomerInfo implements Cloneable {
 	private String OrderNumber;
 	private String email;
 
-//	public BillingInformation(String firstName, String lastName, String addressLineOne, String city, String postalCode,
-//			String email) {
-//		this.firstName = firstName;
-//		this.lastName = lastName;
-//		this.addressLineOne = addressLineOne;
-//		this.city = city;
-//		this.postalCode = postalCode;
-//		this.email = email;
-//	}
-
 	public String getFirstName() {
 		return firstName;
 	}
@@ -137,10 +127,6 @@ public class CustomerInfo implements Cloneable {
 
 	public void setOrderNumber(String orderNumber) {
 		OrderNumber = orderNumber;
-	}
-
-	public CustomerInfo clone() throws CloneNotSupportedException {
-		return (CustomerInfo) super.clone();
 	}
 
 	public String getEmail() {

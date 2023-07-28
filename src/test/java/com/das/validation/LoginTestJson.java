@@ -1,21 +1,23 @@
 package com.das.validation;
 
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.das.core.BaseTest;
-import com.das.core.DataDrivenExcel;
-import com.das.pojo.CustomerInfo;
 import com.das.pom.AccountPage;
 
-public class LoginTest extends BaseTest {
+public class LoginTestJson extends BaseTest {
 
 	@Test(dataProvider = "getData")
-	public void validateCartpage(CustomerInfo customerInfo) throws Exception {
+	public void validateCartpage(HashMap<String, String> input) throws Exception {
 
 		loadloginPage();
 		AccountPage ap = new AccountPage(getDriver());
-		ap.sendKeys(ap.getUsername(), customerInfo.getEmail(), "Entering email id");
+		ap.sendKeys(ap.getUsername(), input.get("Email"), "Entering email id");
 		ap.sendKeys(ap.getPassword(), loadConfig().getPassword(), "Entering password");
 		ap.click(ap.getLoginButton(), "Clicking on login button");
 
@@ -25,13 +27,11 @@ public class LoginTest extends BaseTest {
 	}
 
 	@DataProvider(parallel = true)
-	public Object[][] getData() throws CloneNotSupportedException {
+	public Object[][] getData() throws IOException {
+		List<HashMap<String, String>> data = getJsonData(
+				System.getProperty("user.dir") + "//src//main//resources//TestData.json");
 
-		DataDrivenExcel dataDrivenExcel = new DataDrivenExcel();
-		String temp[] = dataDrivenExcel.fetchRangeDataFromSource();
-		dataDrivenExcel.mapExcellDataInCollection(temp);
-		return dataDrivenExcel.mapCollectionDataInPOJO();
-
+		return new Object[][] { { data.get(0) }, { data.get(1) } };
 	}
 
 }

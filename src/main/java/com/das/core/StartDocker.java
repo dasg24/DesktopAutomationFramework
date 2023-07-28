@@ -32,12 +32,12 @@ public class StartDocker {
 
 			{
 
-				if (currentLine.contains("Node has been added")) {
+				if (currentLine.contains("Running")) {
 					System.out.println("found my text");
 					flag = true;// 14th seconds
 					break;
 				}
-
+				System.out.println(currentLine);
 				currentLine = reader.readLine();
 			}
 			reader.close();

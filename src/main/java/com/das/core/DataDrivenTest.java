@@ -48,10 +48,9 @@ public abstract class DataDrivenTest {
 	}
 
 	public Object[][] mapCollectionDataInPOJO() throws CloneNotSupportedException {
-		Object[][] temp = new Object[outerArrayList.size() - 1][2];
+		Object[][] temp = new Object[outerArrayList.size() - 1][1];
 		for (int i = 1; i < outerArrayList.size(); i++) {
 			CustomerInfo customerInfo = new CustomerInfo();
-			// CustomerInfo customerInfoCopy = new CustomerInfo();
 			for (int j = 0; j < outerArrayList.get(i).size(); j++) {
 				switch (outerArrayList.get(0).get(j)) {
 				case "OrderNumber":
@@ -115,14 +114,14 @@ public abstract class DataDrivenTest {
 					break;
 
 				default:
-					System.out.println("CustomerInfo not have fields for the value that you're passing from Excel");
+					System.out.println("CustomerInfo not have fields for the value that you're passing from Excel "
+							+ outerArrayList.get(i).get(j));
 
 				}
 
 			}
 			customerInfoList.add(customerInfo);
 			temp[i - 1][0] = customerInfo;
-			temp[i - 1][1] = customerInfo.clone();
 		}
 		return temp;
 	}

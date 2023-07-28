@@ -1,1 +1,1 @@
-docker-compose -f docker-compose.yaml up>>OutputLog.txt
+docker-compose -f docker-compose.yaml up --no-color -d>>OutputLog.txt
