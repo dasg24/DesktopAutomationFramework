@@ -39,7 +39,7 @@ public class StopDocker {
 					flag = true;// 14th seconds
 					break;
 				}
-
+				System.out.println(currentLine);
 				currentLine = reader.readLine();
 			}
 			reader.close();
