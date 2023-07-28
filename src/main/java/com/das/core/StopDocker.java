@@ -14,7 +14,7 @@ public class StopDocker {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("cmd /c start DockerDown.bat");
+		runtime.exec("cmd /c start /b DockerDown.bat");
 
 		String f = "ShutDownLog.txt";
 

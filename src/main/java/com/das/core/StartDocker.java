@@ -44,7 +44,7 @@ public class StartDocker {
 		}
 
 		Assert.assertTrue(flag);
-		// runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
+		//runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
 		Thread.sleep(15000);
 
 	}

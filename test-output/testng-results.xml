@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-28T00:05:10 EDT" name="Default suite" finished-at="2023-07-28T00:05:22 EDT" duration-ms="11655">
+  <suite started-at="2023-07-28T06:16:17 EDT" name="Default suite" finished-at="2023-07-28T06:16:30 EDT" duration-ms="12783">
     <groups>
     </groups>
-    <test started-at="2023-07-28T00:05:10 EDT" name="Default test" finished-at="2023-07-28T00:05:22 EDT" duration-ms="11655">
+    <test started-at="2023-07-28T06:16:17 EDT" name="Default test" finished-at="2023-07-28T06:16:30 EDT" duration-ms="12783">
       <class name="com.das.validation.LoginTest">
-        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:04:52 EDT" name="startDockerGrid" finished-at="2023-07-28T00:05:10 EDT" duration-ms="18304" status="PASS">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:15:59 EDT" name="startDockerGrid" finished-at="2023-07-28T06:16:17 EDT" duration-ms="18304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDockerGrid -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:11 EDT" name="startDriver" finished-at="2023-07-28T00:05:15 EDT" duration-ms="3921" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:18 EDT" name="startDriver" finished-at="2023-07-28T06:16:21 EDT" duration-ms="2957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:11 EDT" name="startDriver" finished-at="2023-07-28T00:05:15 EDT" duration-ms="3917" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:18 EDT" name="startDriver" finished-at="2023-07-28T06:16:21 EDT" duration-ms="2954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:11 EDT" name="startDriver" finished-at="2023-07-28T00:05:15 EDT" duration-ms="3926" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:18 EDT" name="startDriver" finished-at="2023-07-28T06:16:21 EDT" duration-ms="2954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:11 EDT" name="startDriver" finished-at="2023-07-28T00:05:15 EDT" duration-ms="3911" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:18 EDT" name="startDriver" finished-at="2023-07-28T06:16:21 EDT" duration-ms="2953" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:11 EDT" name="startDriver" finished-at="2023-07-28T00:05:15 EDT" duration-ms="3909" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:18 EDT" name="startDriver" finished-at="2023-07-28T06:16:21 EDT" duration-ms="2952" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,82 +66,82 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:15 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T00:05:22 EDT" duration-ms="7068" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:21 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T06:16:29 EDT" duration-ms="8300" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@1effa06c]]>
+                <![CDATA[com.das.pojo.CustomerInfo@338b51af]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:15 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T00:05:21 EDT" duration-ms="6656" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:21 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T06:16:29 EDT" duration-ms="8765" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@353bfa14]]>
+                <![CDATA[com.das.pojo.CustomerInfo@7f9f838b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:15 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T00:05:21 EDT" duration-ms="6357" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:21 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T06:16:30 EDT" duration-ms="9084" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@3cc446b1]]>
+                <![CDATA[com.das.pojo.CustomerInfo@5d1b06ec]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:15 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T00:05:21 EDT" duration-ms="6600" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:21 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T06:16:29 EDT" duration-ms="8790" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@3af8307f]]>
+                <![CDATA[com.das.pojo.CustomerInfo@15dc0948]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:15 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T00:05:22 EDT" duration-ms="7001" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:21 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-28T06:16:29 EDT" duration-ms="8335" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@7f13efc8]]>
+                <![CDATA[com.das.pojo.CustomerInfo@5a447782]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:21 EDT" name="tearDownDriver" finished-at="2023-07-28T00:05:21 EDT" duration-ms="172" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:29 EDT" name="tearDownDriver" finished-at="2023-07-28T06:16:29 EDT" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:21 EDT" name="tearDownDriver" finished-at="2023-07-28T00:05:21 EDT" duration-ms="96" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:29 EDT" name="tearDownDriver" finished-at="2023-07-28T06:16:29 EDT" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:21 EDT" name="tearDownDriver" finished-at="2023-07-28T00:05:21 EDT" duration-ms="111" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:29 EDT" name="tearDownDriver" finished-at="2023-07-28T06:16:30 EDT" duration-ms="224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:22 EDT" name="tearDownDriver" finished-at="2023-07-28T00:05:22 EDT" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:29 EDT" name="tearDownDriver" finished-at="2023-07-28T06:16:30 EDT" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:22 EDT" name="tearDownDriver" finished-at="2023-07-28T00:05:22 EDT" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:30 EDT" name="tearDownDriver" finished-at="2023-07-28T06:16:30 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T00:05:22 EDT" name="removeDriver" finished-at="2023-07-28T00:06:07 EDT" duration-ms="45046" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-28T06:16:30 EDT" name="removeDriver" finished-at="2023-07-28T06:17:15 EDT" duration-ms="45047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
