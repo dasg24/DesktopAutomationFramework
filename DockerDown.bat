@@ -1,1 +1,1 @@
-docker-compose -f docker-compose.yaml down>>ShutDownLog.txt
+docker-compose down>>ShutDownLog.txt
