@@ -1,4 +1,4 @@
-package com.das.core.demo.ecommerce;
+package com.das.core.ecommerce;
 
 import org.openqa.selenium.WebDriver;
 
