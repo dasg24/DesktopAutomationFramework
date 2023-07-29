@@ -38,18 +38,17 @@ public class StopDocker {
 			}
 
 			BufferedReader reader = new BufferedReader(new FileReader(f));
-			String currentLine = reader.readLine();
+			String currentLine = reader.readLine().replaceAll("\\s", "");
 			while (currentLine != null && !flag) {
 				System.out.println(currentLine);
-
-				if (currentLine.contains("selenium-hub                          [32mRemoved[0m[34m")
-						|| currentLine.contains("selenium-hub                 Removed")) {
+				if (currentLine.contains("selenium-hub[32mRemoved[0m[34m")
+						|| currentLine.contains("selenium-hubRemoved")) {
 					System.out.println("found my text" + currentLine);
 					flag = true;// 14th seconds
 					Thread.sleep(5000);
 					break;
 				}
-				currentLine = reader.readLine();
+				currentLine = reader.readLine().replaceAll("\\s", "");
 			}
 			reader.close();
 

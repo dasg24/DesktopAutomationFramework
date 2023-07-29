@@ -17,7 +17,6 @@ public class StartDocker {
 		// --scale chrome=10 -d && echo end\"");
 		// runtime.exec("cmd \\c start cmd.exe /K \"DockerUp.bat && docker-compose up
 		// --scale chrome=10 -d && echo end\"");
-		System.out.println(SystemUtils.OS_NAME);
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
@@ -37,7 +36,8 @@ public class StartDocker {
 			}
 
 			BufferedReader reader = new BufferedReader(new FileReader(f));
-			String currentLine = reader.readLine();
+			String currentLine = reader.readLine().replaceAll("\\s+", "");
+			System.out.println(currentLine);
 			while (currentLine != null && !flag)
 
 			{
@@ -48,7 +48,7 @@ public class StartDocker {
 					break;
 				}
 				System.out.println(currentLine);
-				currentLine = reader.readLine();
+				currentLine = reader.readLine().replaceAll("\\s", "");
 			}
 			reader.close();
 
