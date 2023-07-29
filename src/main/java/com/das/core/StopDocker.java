@@ -37,7 +37,8 @@ public class StopDocker {
 
 			{
 
-				if (currentLine.contains("selenium-hub                          [32mRemoved[0m[34m")) {
+				if (currentLine.contains("selenium-hub                          [32mRemoved[0m[34m")
+						|| currentLine.contains("selenium-hub                 Removed")) {
 					System.out.println("found my text");
 					flag = true;// 14th seconds
 					break;
