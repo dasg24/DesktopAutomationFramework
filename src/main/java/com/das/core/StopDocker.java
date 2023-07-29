@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 
+import org.apache.commons.lang3.SystemUtils;
 import org.testng.asserts.SoftAssert;
 
 public class StopDocker {
@@ -16,7 +17,12 @@ public class StopDocker {
 		Runtime runtime = Runtime.getRuntime();
 
 		System.out.println("Test Jenkins before docker compose down");
-		runtime.exec("cmd \\c start DockerDown.bat");
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			runtime.exec("cmd /c start DockerDown.bat");
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			runtime.exec("cmd \\c start DockerDown.bat");
+		}
+
 		System.out.println("Test Jenkins after docker compose down");
 
 		String f = "ShutDownLog.txt";
@@ -57,7 +63,12 @@ public class StopDocker {
 
 		File file2 = new File("ShutDownLog.txt");
 		file2.delete();
-		runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
+		}
+		// runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
 	}
 
 }
