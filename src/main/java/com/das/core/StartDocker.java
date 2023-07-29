@@ -12,7 +12,7 @@ public class StartDocker {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-		runtime.exec("cmd /c start cmd.exe /K \"DockerUp.bat && docker-compose up --scale chrome=10 -d && echo end\"");
+		runtime.exec("cmd \\c start cmd.exe /K \"DockerUp.bat && docker-compose up --scale chrome=10 -d && echo end\"");
 		String f = "OutputLog.txt";
 
 		Calendar cal = Calendar.getInstance();// 2:44 15th second
@@ -44,7 +44,7 @@ public class StartDocker {
 		}
 
 		Assert.assertTrue(flag);
-		//runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
+		// runtime.exec("cmd /c start docker-compose up --scale chrome=10 -d");
 		Thread.sleep(15000);
 
 	}
