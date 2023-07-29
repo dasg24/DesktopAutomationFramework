@@ -22,7 +22,7 @@ public class StopDocker {
 		String f = "ShutDownLog.txt";
 
 		Calendar cal = Calendar.getInstance();// 2:44 15th second
-		cal.add(Calendar.SECOND, 45);// 2:44 45seconds
+		cal.add(Calendar.SECOND, 45);// 45seconds
 		long stopnow = cal.getTimeInMillis();
 		Thread.sleep(3000);
 
@@ -41,6 +41,7 @@ public class StopDocker {
 						|| currentLine.contains("selenium-hub                 Removed")) {
 					System.out.println("found my text");
 					flag = true;// 14th seconds
+					Thread.sleep(5000);
 					break;
 				}
 				System.out.println(currentLine);
