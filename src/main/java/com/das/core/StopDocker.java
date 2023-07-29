@@ -14,9 +14,11 @@ public class StopDocker {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
+
 		System.out.println("Test Jenkins before docker compose down");
-		runtime.exec("cmd /c start docker-compose down>>ShutDownLog.txt");
+		runtime.exec("cmd /c start DockerDown.bat");
 		System.out.println("Test Jenkins after docker compose down");
+
 		String f = "ShutDownLog.txt";
 
 		Calendar cal = Calendar.getInstance();// 2:44 15th second
@@ -31,13 +33,12 @@ public class StopDocker {
 
 			BufferedReader reader = new BufferedReader(new FileReader(f));
 			String currentLine = reader.readLine();
-			System.out.println("Test Jenkins first currentLine " + currentLine);
 			while (currentLine != null && !flag)
 
 			{
 
-				if (currentLine.contains("selenium-hub                          [32mRemoved")) {
-					System.out.println("found my text " + currentLine);
+				if (currentLine.contains("selenium-hub                          [32mRemoved[0m[34m")) {
+					System.out.println("found my text");
 					flag = true;// 14th seconds
 					break;
 				}
