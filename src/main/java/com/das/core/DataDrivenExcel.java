@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+import org.apache.commons.lang3.SystemUtils;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
@@ -34,7 +35,12 @@ public class DataDrivenExcel extends DataDrivenTest {
 	}
 
 	public String[] fetchRangeDataFromSource() {
-		String pathToExcel = System.getProperty("user.dir") + "\\ExcellDocs\\ContentData.xlsx";
+		String pathToExcel = "";
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			pathToExcel = System.getProperty("user.dir") + "/ExcellDocs/ContentData.xlsx";
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			pathToExcel = System.getProperty("user.dir") + "\\ExcellDocs\\ContentData.xlsx";
+		}
 
 		try {
 			FileInputStream fis = new FileInputStream(pathToExcel);
@@ -89,8 +95,13 @@ public class DataDrivenExcel extends DataDrivenTest {
 
 	public String fetchLastRangeValueFromSource() {
 		String resultRangeValue = "";
-
-		File filePath = new File(System.getProperty("user.dir") + "\\ExcellDocs\\LastRangeNumber.xlsx");
+		String filePathString = "";
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			filePathString = System.getProperty("user.dir") + "/ExcellDocs/LastRangeNumber.xlsx";
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			filePathString = System.getProperty("user.dir") + "\\ExcellDocs\\LastRangeNumber.xlsx";
+		}
+		File filePath = new File(filePathString);
 		if (filePath.exists()) {
 			try {
 				FileInputStream fisRangeValue = new FileInputStream(filePath);

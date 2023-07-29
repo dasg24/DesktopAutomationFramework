@@ -67,7 +67,6 @@ public class StopDocker {
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
 			runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
 		}
-		// runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
 	}
 
 }
