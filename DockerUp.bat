@@ -1,1 +1,1 @@
-docker-compose -f docker-compose.yaml up -d --no-color selenium-hub chrome firefox edge>>OutputLog.txt
+docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt
