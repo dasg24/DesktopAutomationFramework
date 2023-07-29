@@ -16,7 +16,7 @@ public class StopDocker {
 		Runtime runtime = Runtime.getRuntime();
 
 		System.out.println("Test Jenkins before docker compose down");
-		runtime.exec("cmd /c start DockerDown.bat");
+		runtime.exec("cmd \\c start DockerDown.bat");
 		System.out.println("Test Jenkins after docker compose down");
 
 		String f = "ShutDownLog.txt";
