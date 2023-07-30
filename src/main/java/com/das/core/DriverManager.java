@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.lang3.SystemUtils;
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -61,7 +62,12 @@ public class DriverManager {
 
 		}
 		Thread.currentThread().getName();
-		String strFile = "logs" + File.separator + Common_Functions.dateTime() + "_" + Thread.currentThread().getId();
+		String strFile = "";
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			strFile = "logs" + "/" + Common_Functions.dateTime() + "_" + Thread.currentThread().getId();
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			strFile = "logs" + "\\" + Common_Functions.dateTime() + "_" + Thread.currentThread().getId();
+		}
 
 		File logFile = new File(strFile);
 		if (!logFile.exists()) {

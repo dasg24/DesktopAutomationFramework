@@ -39,7 +39,7 @@ public class StartDocker {
 			{
 
 				if (currentLine.contains("Running")) {
-					System.out.println("found my text");
+					System.out.println("found my text " + currentLine);
 					flag = true;// 14th seconds
 					break;
 				}

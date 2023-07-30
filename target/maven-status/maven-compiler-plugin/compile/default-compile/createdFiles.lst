@@ -8,7 +8,6 @@ com\das\pom\HomePage.class
 com\das\pojo\Configuration.class
 com\das\utils\TestUtils.class
 com\das\pom\CartPage.class
-com\das\core\DriverManagerAbstract.class
 com\das\utils\JacksonUtils.class
 com\das\core\StopDocker.class
 com\das\core\DataDrivenExcel.class
@@ -21,5 +20,4 @@ com\das\utils\TestListener.class
 com\das\core\BasePage.class
 com\das\functions\Common_Functions.class
 com\das\core\DriverManager.class
-com\das\core\demo\ecommerce\BaseEcommerce.class
 com\das\pom\PlacedOrderPage.class

@@ -15,15 +15,11 @@ public class StopDocker {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
-
-		System.out.println("Test Jenkins before docker compose down");
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerDown.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
 			runtime.exec("cmd \\c start DockerDown.bat");
 		}
-
-		System.out.println("Test Jenkins after docker compose down");
 
 		String f = "ShutDownLog.txt";
 
@@ -40,7 +36,6 @@ public class StopDocker {
 			BufferedReader reader = new BufferedReader(new FileReader(f));
 			String currentLine = reader.readLine().replaceAll("\\s", "");
 			while (currentLine != null && !flag) {
-				System.out.println(currentLine);
 				if (currentLine.contains("selenium-hub[32mRemoved[0m[34m")
 						|| currentLine.contains("selenium-hubRemoved")) {
 					System.out.println("found my text" + currentLine);

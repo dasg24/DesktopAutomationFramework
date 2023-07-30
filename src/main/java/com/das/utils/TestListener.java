@@ -8,6 +8,7 @@ import java.nio.charset.StandardCharsets;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.SystemUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -21,7 +22,6 @@ import com.aventstack.extentreports.Status;
 import com.das.core.BaseTest;
 import com.das.core.MapDrivers;
 import com.das.pojo.Configuration;
-import com.das.utils.ExtentReport;
 
 public class TestListener extends BaseTest implements ITestListener {
 	ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
@@ -41,11 +41,22 @@ public class TestListener extends BaseTest implements ITestListener {
 
 		dateTime.set((String) context.getAttribute("DateTime"));
 		File file = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
+		String imagePath = "";
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			imagePath = "Screenshots" + "\\" + (Thread.currentThread().getId()) + "\\"
+					+ result.getTestClass().getRealClass().getSimpleName() + "\\" + result.getName() + ".png";
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			imagePath = "Screenshots\\" + (Thread.currentThread().getId()) + "\\"
+					+ result.getTestClass().getRealClass().getSimpleName() + "\\" + result.getName() + ".png";
+		}
 
-		String imagePath = "Screenshots" + File.separator + (Thread.currentThread().getId()) + File.separator
-				+ result.getTestClass().getRealClass().getSimpleName() + File.separator + result.getName() + ".png";
+		String completeImagePath = "";
+		if (SystemUtils.OS_NAME.contains("Windows")) {
+			completeImagePath = System.getProperty("user.dir") + "\\" + imagePath;
+		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+			completeImagePath = System.getProperty("user.dir") + "\\" + imagePath;
+		}
 
-		String completeImagePath = System.getProperty("user.dir") + File.separator + imagePath;
 		System.out.println("completeImagePath " + completeImagePath);
 		try {
 			FileUtils.copyFile(file, new File(imagePath));
