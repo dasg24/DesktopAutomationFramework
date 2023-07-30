@@ -57,11 +57,11 @@ public class StopDocker {
 
 		File file2 = new File("ShutDownLog.txt");
 		file2.delete();
-		if (SystemUtils.OS_NAME.contains("Windows")) {
-			runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
-		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
-		}
+//		if (SystemUtils.OS_NAME.contains("Windows")) {
+//			runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
+//		} else if (SystemUtils.OS_NAME.contains("Linux")) {
+//			runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
+//		}
 	}
 
 }
