@@ -89,7 +89,7 @@ public abstract class BaseTest {
 	public void removeDriver() throws Exception {
 		if (StringUtils.trim(getDockerName()).equalsIgnoreCase("true")) {
 			StopDocker stopDocker = new StopDocker();
-			stopDocker.stopDockerGrid();
+			stopDocker.stopDockerGrid(getDockerName());
 		}
 		driver.remove();
 

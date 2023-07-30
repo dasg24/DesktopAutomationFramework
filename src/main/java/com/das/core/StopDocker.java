@@ -6,12 +6,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Calendar;
 
+import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.SystemUtils;
 import org.testng.asserts.SoftAssert;
 
 public class StopDocker {
 
-	public void stopDockerGrid() throws IOException, InterruptedException {
+	public void stopDockerGrid(String dockerValue) throws IOException, InterruptedException {
 
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
@@ -57,11 +58,14 @@ public class StopDocker {
 
 		File file2 = new File("ShutDownLog.txt");
 		file2.delete();
-//		if (SystemUtils.OS_NAME.contains("Windows")) {
-//			runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
-//		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-//			runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
-//		}
+		if (!StringUtils.trim(dockerValue).equalsIgnoreCase("true")) {
+			if (SystemUtils.OS_NAME.contains("Windows")) {
+				runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
+			} else if (SystemUtils.OS_NAME.contains("Linux")) {
+				runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
+			}
+		}
+
 	}
 
 }
