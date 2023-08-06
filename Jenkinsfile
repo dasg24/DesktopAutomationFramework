@@ -30,11 +30,9 @@ pipeline {
         stage('Run') {
             steps {
                 script {
-                      try {
+                     
                           bat "mvn test -Dtest=com.das.validation.LoginTest"
-                      } catch (Exception e) {
-                          echo 'Exception occurred: ' + e.toString()
-                      }
+                      
                     }
                 
                 
@@ -49,9 +47,20 @@ pipeline {
         // failure {
         //     //emailext body: 'Test Execution has failed.', subject: 'Jenkins Build Failure', to: 'das.us.dev@gmail.com'
         //         }
-            success {
-            junit allowEmptyResults: true, skipOldReports: true, skipPublishingChecks: true, testResults: 'DesktopAutomation/target/test-reports/*.xml'
-        }
+            
+            always {
+                    archiveArtifacts 'target/**'
+                     publishHTML([
+                              allowMissing: false, 
+                              alwaysLinkToLastBuild: false, 
+                              keepAll: false, 
+                              reportDir: '',
+                              reportFiles: 'Extent.html', 
+                              reportName: 'ExtentReport', 
+                              reportTitles: '', 
+                              useWrapperFileDirectly: true])
+                
+            }
         
     }
             
