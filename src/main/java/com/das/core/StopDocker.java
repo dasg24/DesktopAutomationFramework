@@ -19,7 +19,7 @@ public class StopDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerDown.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("sh start DockerDown.bat");
+			runtime.exec("sh docker-compose -f docker-compose.yaml down>>ShutDownLog.txt");
 		}
 
 		String f = "ShutDownLog.txt";
