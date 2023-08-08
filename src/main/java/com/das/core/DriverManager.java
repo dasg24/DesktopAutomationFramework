@@ -24,7 +24,13 @@ public class DriverManager {
 	public WebDriver initDriver(String dockerName, String browserName) throws IOException {
 
 		if (StringUtils.trim(dockerName).equalsIgnoreCase("true")) {
-			URL u = new URL("http://localhost:4444/wd/hub");
+			String url = "";
+			if (SystemUtils.OS_NAME.contains("Windows")) {
+				url = "http://localhost:4444/wd/hub";
+			} else if (SystemUtils.OS_NAME.contains("Linux")) {
+				url = "http://18.191.123.116:4444/wd/hub";
+			}
+			URL u = new URL(url);
 			switch (browserName) {
 
 			case "chrome":
