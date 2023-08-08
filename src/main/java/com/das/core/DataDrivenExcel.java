@@ -40,7 +40,7 @@ public class DataDrivenExcel extends DataDrivenTest {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			pathToExcel = System.getProperty("user.dir") + "/ExcellDocs/ContentData.xlsx";
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			pathToExcel = System.getProperty("user.dir") + "\\\\ExcellDocs\\\\ContentData.xlsx";
+			pathToExcel = System.getProperty("user.dir") + "/ExcellDocs/ContentData.xlsx";
 		}
 
 		try {
