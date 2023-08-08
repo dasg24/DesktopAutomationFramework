@@ -54,7 +54,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start docker-compose up --scale chrome=10");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("cmd \\c start docker-compose up --scale chrome=10");
+			runtime.exec("sh start docker-compose up --scale chrome=10");
 		}
 		Thread.sleep(15000);
 
