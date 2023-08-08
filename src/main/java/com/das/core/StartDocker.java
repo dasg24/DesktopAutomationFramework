@@ -17,6 +17,7 @@ public class StartDocker {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
 			runtime.exec("sh docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt");
+			Thread.sleep(60000);
 		}
 
 		String f = "OutputLog.txt";

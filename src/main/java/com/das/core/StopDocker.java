@@ -13,7 +13,7 @@ import org.testng.asserts.SoftAssert;
 public class StopDocker {
 
 	public void stopDockerGrid(String dockerValue) throws IOException, InterruptedException {
-		Thread.sleep(60000);
+
 		boolean flag = false;
 		Runtime runtime = Runtime.getRuntime();
 		if (SystemUtils.OS_NAME.contains("Windows")) {
