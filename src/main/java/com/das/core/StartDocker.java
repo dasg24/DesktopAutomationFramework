@@ -16,11 +16,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			// runtime.exec("sh docker-compose -f docker-compose.yaml up
-			// --no-color>>OutputLog.txt");
-			runtime.exec(
-					new String[] { "sh", "-c", "docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt" });
-			Thread.sleep(5000);
+			runtime.exec("docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt /bin/sh");
 		}
 
 		String f = "OutputLog.txt";
@@ -29,9 +25,8 @@ public class StartDocker {
 		cal.add(Calendar.SECOND, 45);// 2:44 45seconds
 		long stopnow = cal.getTimeInMillis();
 		Thread.sleep(3000);
-		System.out.println("I am here");
+
 		while (System.currentTimeMillis() < stopnow) {
-			System.out.println("I am here 2");
 			if (flag) {
 				break;
 			}
@@ -42,7 +37,7 @@ public class StartDocker {
 			while (currentLine != null && !flag)
 
 			{
-				System.out.println("I am here 3");
+
 				if (currentLine.contains("Running")) {
 					System.out.println("found my text " + currentLine);
 					flag = true;// 14th seconds
