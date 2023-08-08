@@ -28,7 +28,7 @@ public class DriverManager {
 			if (SystemUtils.OS_NAME.contains("Windows")) {
 				url = "http://localhost:4444/wd/hub";
 			} else if (SystemUtils.OS_NAME.contains("Linux")) {
-				url = "http://18.191.123.116:4444/wd/hub";
+				url = "http://18.188.95.79:4444/wd/hub";
 			}
 			URL u = new URL(url);
 			switch (browserName) {
