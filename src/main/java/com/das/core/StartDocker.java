@@ -16,7 +16,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("cmd \\c start DockerUp.bat");
+			runtime.exec("sh start DockerUp.bat");
 		}
 
 		String f = "OutputLog.txt";
