@@ -36,6 +36,7 @@ public class DriverManager {
 			case "chrome":
 				DesiredCapabilities capChrome = DesiredCapabilities.chrome();
 				capChrome.setCapability("DateTime", Common_Functions.dateTime());
+				System.out.println("URL :" + url);
 				driver.set(new RemoteWebDriver(u, capChrome));
 				break;
 			case "firefox":
