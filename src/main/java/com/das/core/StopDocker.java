@@ -19,7 +19,7 @@ public class StopDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerDown.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("cmd \\c start DockerDown.bat");
+			runtime.exec("sh start DockerDown.bat");
 		}
 
 		String f = "ShutDownLog.txt";
@@ -62,7 +62,7 @@ public class StopDocker {
 			if (SystemUtils.OS_NAME.contains("Windows")) {
 				runtime.exec("cmd /c taskkill /F /IM cmd.exe /T");
 			} else if (SystemUtils.OS_NAME.contains("Linux")) {
-				runtime.exec("cmd \\c taskkill \\F \\IM cmd.exe \\T");
+				runtime.exec("sh taskkill \\F \\IM cmd.exe \\T");
 			}
 		}
 
