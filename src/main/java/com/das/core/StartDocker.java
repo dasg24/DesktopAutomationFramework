@@ -16,7 +16,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("rsh docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt");
+			runtime.exec("sh docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt");
 		}
 
 		String f = "OutputLog.txt";
@@ -54,7 +54,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start docker-compose up --scale chrome=10");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("rsh docker-compose up --scale chrome=10");
+			runtime.exec("sh docker-compose up --scale chrome=10");
 		}
 		Thread.sleep(15000);
 
