@@ -26,10 +26,10 @@ public class DriverManager {
 		if (StringUtils.trim(dockerName).equalsIgnoreCase("true")) {
 			String url = "";
 			if (SystemUtils.OS_NAME.contains("Windows")) {
-				url = "http://18.188.95.79:4444";
+				url = "http://3.133.94.151:4444/wd/hub";
 				// url = "http://localhost:4444/wd/hub";
 			} else if (SystemUtils.OS_NAME.contains("Linux")) {
-				url = "http://18.188.95.79:4444/wd/hub";
+				url = "http://3.133.94.151:4444/wd/hub";
 			}
 			URL u = new URL(url);
 			switch (browserName) {
