@@ -16,7 +16,7 @@ public class StartDocker {
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			runtime.exec("cmd /c start DockerUp.bat");
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
-			runtime.exec("docker-compose -f docker-compose.yaml up --no-color>>OutputLog.txt /bin/sh");
+			runtime.exec("docker-compose -f docker-compose.yaml up --scale chrome=5 --no-color>>OutputLog.txt /bin/sh");
 		}
 
 		String f = "OutputLog.txt";
