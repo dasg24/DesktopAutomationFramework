@@ -61,7 +61,7 @@ public abstract class BaseTest {
 		setBrowserName(loadConfig().getBrowserName());
 		if (StringUtils.trim(getDockerName()).equalsIgnoreCase("true")) {
 			StartDocker startDocker = new StartDocker();
-			// startDocker.startDockerGrid();
+			startDocker.startDockerGrid();
 		}
 
 	}
@@ -89,7 +89,7 @@ public abstract class BaseTest {
 	public void removeDriver() throws Exception {
 		if (StringUtils.trim(getDockerName()).equalsIgnoreCase("true")) {
 			StopDocker stopDocker = new StopDocker();
-			// stopDocker.stopDockerGrid(getDockerName());
+			stopDocker.stopDockerGrid(getDockerName());
 		}
 		driver.remove();
 
