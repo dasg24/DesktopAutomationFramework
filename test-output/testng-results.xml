@@ -1,592 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="5" failed="5" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\25\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\25\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\24\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\24\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\21\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\21\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\22\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\22\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-    </line>
-    <line>
-      <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\23\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\23\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-07-31T16:25:40 EDT" name="Default suite" finished-at="2023-07-31T16:26:26 EDT" duration-ms="45578">
+  <suite started-at="2023-08-08T20:29:06 EDT" name="Default suite" finished-at="2023-08-08T20:36:42 EDT" duration-ms="455768">
     <groups>
     </groups>
-    <test started-at="2023-07-31T16:25:40 EDT" name="Default test" finished-at="2023-07-31T16:26:26 EDT" duration-ms="45578">
+    <test started-at="2023-08-08T20:29:06 EDT" name="Default test" finished-at="2023-08-08T20:36:42 EDT" duration-ms="455768">
       <class name="com.das.validation.LoginTest">
-        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:40 EDT" name="startDockerGrid" finished-at="2023-07-31T16:25:40 EDT" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="startDockerGrid()[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:29:06 EDT" name="startDockerGrid" finished-at="2023-08-08T20:29:06 EDT" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDockerGrid -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:47 EDT" duration-ms="6187" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:29:07 EDT" name="startDriver" finished-at="2023-08-08T20:36:23 EDT" duration-ms="436190" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
+                <![CDATA[org.testng.TestRunner@3f29e26]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:48 EDT" duration-ms="6305" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:29:07 EDT" name="startDriver" finished-at="2023-08-08T20:36:23 EDT" duration-ms="436279" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
+                <![CDATA[org.testng.TestRunner@3f29e26]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:49 EDT" duration-ms="7389" status="PASS">
+        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:29:07 EDT" name="startDriver" finished-at="2023-08-08T20:36:23 EDT" duration-ms="436175" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
+                <![CDATA[org.testng.TestRunner@3f29e26]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:47 EDT" duration-ms="5997" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:23 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-08-08T20:36:42 EDT" duration-ms="18823" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:47 EDT" duration-ms="5991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:47 EDT" duration-ms="6002" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:48 EDT" duration-ms="6231" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:48 EDT" duration-ms="6232" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:48 EDT" duration-ms="6303" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method is-config="true" signature="startDriver(org.testng.ITestContext)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:41 EDT" name="startDriver" finished-at="2023-07-31T16:25:49 EDT" duration-ms="7307" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@57b9e423]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startDriver -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:47 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:26:25 EDT" duration-ms="37598" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@186a98e2]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23c6551930ba3f48909cd690fd9013de
-*** Element info: {Using=link text, value=Orders}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49255}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 23c6551930ba3f48909cd690fd9013de
-*** Element info: {Using=link text, value=Orders}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.das.pom.AccountPage.getOrderLink(AccountPage.java:36)
-at com.das.validation.LoginTest.validateCartpage(LoginTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\25\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\25\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:47 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:25:57 EDT" duration-ms="10039" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@5ab22029]]>
+                <![CDATA[com.das.pojo.CustomerInfo@1d5cd170]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:47 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:25:57 EDT" duration-ms="10156" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:23 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-08-08T20:36:40 EDT" duration-ms="17056" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@6289f268]]>
+                <![CDATA[com.das.pojo.CustomerInfo@740a56cb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:47 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:25:58 EDT" duration-ms="10509" status="PASS">
+        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:23 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-08-08T20:36:42 EDT" duration-ms="18792" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[com.das.pojo.CustomerInfo@b6d57cd]]>
+                <![CDATA[com.das.pojo.CustomerInfo@6128f1c0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:48 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:26:25 EDT" duration-ms="37568" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@43b77f26]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 50b28b8b773e2c946e7fadda0f83b25c
-*** Element info: {Using=link text, value=Orders}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49266}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 50b28b8b773e2c946e7fadda0f83b25c
-*** Element info: {Using=link text, value=Orders}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.das.pom.AccountPage.getOrderLink(AccountPage.java:36)
-at com.das.validation.LoginTest.validateCartpage(LoginTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\21\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\21\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:48 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:26:25 EDT" duration-ms="37726" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@12e792e8]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa061120f8ba61b72a2adebe1f2c1265
-*** Element info: {Using=link text, value=Orders}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aa061120f8ba61b72a2adebe1f2c1265
-*** Element info: {Using=link text, value=Orders}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.das.pom.AccountPage.getOrderLink(AccountPage.java:36)
-at com.das.validation.LoginTest.validateCartpage(LoginTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\22\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\22\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:48 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:25:58 EDT" duration-ms="10197" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@6303e2be]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:48 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:25:58 EDT" duration-ms="10279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@7dc256a2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:49 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:26:26 EDT" duration-ms="36880" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@235b44c9]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 02aa39585bbdacbd4598f88b59735c9b
-*** Element info: {Using=link text, value=Orders}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49288}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 02aa39585bbdacbd4598f88b59735c9b
-*** Element info: {Using=link text, value=Orders}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.das.pom.AccountPage.getOrderLink(AccountPage.java:36)
-at com.das.validation.LoginTest.validateCartpage(LoginTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\23\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\23\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method signature="validateCartpage(com.das.pojo.CustomerInfo)[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:49 EDT" name="validateCartpage" data-provider="getData" finished-at="2023-07-31T16:26:25 EDT" duration-ms="36263" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[com.das.pojo.CustomerInfo@3e76e00]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f0be3d55486e7fd861c8d599f779210
-*** Element info: {Using=link text, value=Orders}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Orders"}
-  (Session info: chrome=115.0.5790.110)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DASG16', ip: '10.0.0.39', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\goura\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49256}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3f0be3d55486e7fd861c8d599f779210
-*** Element info: {Using=link text, value=Orders}
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at com.das.pom.AccountPage.getOrderLink(AccountPage.java:36)
-at com.das.validation.LoginTest.validateCartpage(LoginTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
-at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\24\LoginTest\validateCartpage.png'> <img src='C:\Users\goura\git\DesktopAutomationFramework\Screenshots\24\LoginTest\validateCartpage.png' height='400' width='400'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- validateCartpage -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:57 EDT" name="tearDownDriver" finished-at="2023-07-31T16:25:58 EDT" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:40 EDT" name="tearDownDriver" finished-at="2023-08-08T20:36:41 EDT" duration-ms="1348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:57 EDT" name="tearDownDriver" finished-at="2023-07-31T16:25:58 EDT" duration-ms="521" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:42 EDT" name="tearDownDriver" finished-at="2023-08-08T20:36:42 EDT" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:58 EDT" name="tearDownDriver" finished-at="2023-07-31T16:25:58 EDT" duration-ms="306" status="PASS">
+        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:42 EDT" name="tearDownDriver" finished-at="2023-08-08T20:36:42 EDT" duration-ms="266" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:58 EDT" name="tearDownDriver" finished-at="2023-07-31T16:25:58 EDT" duration-ms="347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:25:58 EDT" name="tearDownDriver" finished-at="2023-07-31T16:25:58 EDT" duration-ms="297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:25 EDT" name="tearDownDriver" finished-at="2023-07-31T16:26:26 EDT" duration-ms="439" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:25 EDT" name="tearDownDriver" finished-at="2023-07-31T16:26:26 EDT" duration-ms="376" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:25 EDT" name="tearDownDriver" finished-at="2023-07-31T16:26:26 EDT" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:26 EDT" name="tearDownDriver" finished-at="2023-07-31T16:26:26 EDT" duration-ms="213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="tearDownDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:26 EDT" name="tearDownDriver" finished-at="2023-07-31T16:26:26 EDT" duration-ms="241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownDriver -->
-        <test-method is-config="true" signature="removeDriver()[pri:0, instance:com.das.validation.LoginTest@38425407]" started-at="2023-07-31T16:26:27 EDT" name="removeDriver" finished-at="2023-07-31T16:26:27 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="removeDriver()[pri:0, instance:com.das.validation.LoginTest@79e4c792]" started-at="2023-08-08T20:36:42 EDT" name="removeDriver" finished-at="2023-08-08T20:36:42 EDT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->

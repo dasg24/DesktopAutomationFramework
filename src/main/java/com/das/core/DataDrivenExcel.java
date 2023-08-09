@@ -36,7 +36,6 @@ public class DataDrivenExcel extends DataDrivenTest {
 
 	public String[] fetchRangeDataFromSource() {
 		String pathToExcel = "";
-		System.out.println(SystemUtils.OS_NAME);
 		if (SystemUtils.OS_NAME.contains("Windows")) {
 			pathToExcel = System.getProperty("user.dir") + "/ExcellDocs/ContentData.xlsx";
 		} else if (SystemUtils.OS_NAME.contains("Linux")) {
